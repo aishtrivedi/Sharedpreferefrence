@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mobile"
+        android:hint="Mobile Number"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        /></android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:inputType="textPassword"
+        android:id="@+id/Password"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        /></android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/conPassword"
+            android:hint="Confirm Password"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            /></android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimum 6 characters,atleast 1 number"
+        android:layout_margin="10dp"
+        android:textColor="#787474"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email_name"
+        android:hint="Email ID"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        /></android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By singing up tou confirm that you are over"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#787474"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 years of age and agree to the"
+        android:textColor="#787474"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms &amp;"
+        android:textColor="#3ea7ec"
+        android:layout_marginLeft="3dp"
+        android:textSize="15sp"/></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition"
+        android:textColor="#3ea7ec"
+        android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and"
+            android:textSize="15sp"
+            android:textColor="#787474"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy."
+            android:textColor="#3ea7ec"
+            android:textSize="15sp"
+            android:layout_marginLeft="3dp"/></LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="Create a New Account"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login"
+        android:padding="15dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to Paytm"
+        android:textSize="18sp"
+        android:textColor="#3ea7ec"
+        android:gravity="center"
+        />
+
+</LinearLayout>
